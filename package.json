@@ -1,0 +1,15 @@
+{
+  "name": "curve-intersection",
+  "version": "0.0.1",
+  "description": "Bezier curve intersection algorithm and utilities",
+  "keywords": ["bezier", "curve", "intersection", "clipping", "fatline", "vector"],
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "babel index.js > es3.js"
+  },
+  "author": "Alexandre Kirszenberg <alexandre.kirszenberg@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^4.7.3"
+  }
+}
